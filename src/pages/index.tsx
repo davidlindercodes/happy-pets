@@ -1,10 +1,10 @@
+import { Map } from '../layout/Map';
 import { Meta } from '../layout/Meta';
-import { AppConfig } from '../utils/AppConfig';
 import { Banner } from '../templates/Banner';
-import { Footer } from '../templates/Footer';
 import { Hero } from '../templates/Hero';
 import { VerticalFeatures } from '../templates/VerticalFeatures';
-import { Map } from '../layout/Map';
+import { AppConfig } from '../utils/AppConfig';
+import { Footer } from '../templates/Footer';
 import { Reviews } from '../layout/GoogleReviews';
 
 const Index = () => (
