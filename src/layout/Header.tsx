@@ -1,5 +1,4 @@
 import Link from 'next/link';
-
 import { Section } from './Section';
 import { Logo } from '../templates/Logo';
 import Image from 'next/image';
