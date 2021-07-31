@@ -1,18 +1,11 @@
-# Landing Page Template built with Next JS 11+, Tailwind CSS 2.0 and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+# Pet Shop Website built by David Linder
 
-<p align="center">
-  <a href="https://creativedesignsguru.com/demo/nextjs-landing-page/"><img src="public/assets/images/nextjs-landing-page-banner.png?raw=true" alt="Next js starter banner"></a>
-</p>
+🚀 Custom theme written in Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, Netlify, PostCSS, Tailwind CSS.
 
-🚀 Landing Page theme written in Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, Netlify, PostCSS, Tailwind CSS.
-
-Clone this project and use it to create your own [Next.js](https://nextjs.org) project. You can check a [Next js templates demo](https://creativedesignsguru.com/demo/nextjs-landing-page/).
 
 ### DEMO
 
-[![Nextjs Landing Page Template Screenshot](public/assets/images/nextjs-landing-page-screenshot.png?raw=true)](https://creativedesignsguru.com/demo/nextjs-landing-page/)
-
-Check out our [live demo](https://creativedesignsguru.com/demo/nextjs-landing-page/).
+Coming soon.
 
 ### Features
 
@@ -56,61 +49,11 @@ Find more components in our [premium NextJS themes](https://creativedesignsguru.
 - SEO-friendly
 - 🚀 Production-ready
 
-### Premium Themes ([Nextjs Themes](https://creativedesignsguru.com/category/nextjs/))
-
-| [Green Nextjs Landing Page Template](https://creativedesignsguru.com/landing-green-modern-nextjs-theme/) | [Indigo Nextjs Tailwind Theme](https://creativedesignsguru.com/landing-indigo-modern-react-theme/) |
-| --- | --- |
-| [![Green Nextjs Landing Page Template](https://creativedesignsguru.com/assets/images/themes/landing-green-modern-nextjs-theme-xs.png)](https://creativedesignsguru.com/landing-green-modern-nextjs-theme/) | [![Indigo Nextjs Tailwind Theme](https://creativedesignsguru.com/assets/images/themes/landing-indigo-modern-nextjs-theme-xs.png)](https://creativedesignsguru.com/landing-indigo-modern-react-theme/) |
-
-| [Purple Saas Nextjs Theme](https://creativedesignsguru.com/landing-purple-modern-react-theme/) | [Blue Landing Page Nextjs Theme](https://creativedesignsguru.com/landing-blue-modern-react-theme/) |
-| --- | --- |
-| [![Purple Saas Nextjs Theme](https://creativedesignsguru.com/assets/images/themes/landing-purple-modern-nextjs-theme-xs.png)](https://creativedesignsguru.com/landing-purple-modern-react-theme/) | [![Blue Landing Page Nextjs Theme](https://creativedesignsguru.com/assets/images/themes/landing-blue-modern-nextjs-theme-xs.png)](https://creativedesignsguru.com/landing-blue-modern-react-theme/) |
 
 ### Requirements
 
 - Node.js and npm
 
-### Getting started
-
-Run the following command on your local environment:
-
-```
-git clone --depth=1 https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template.git my-project-name
-cd my-project-name
-npm install
-```
-
-Then, you can run locally in development mode with live reload:
-
-```
-npm run dev
-```
-
-Open http://localhost:4000 with your favorite browser to see your project. For your information, Next JS need to take some time to compile the project for your first time.
-
-```
-.
-├── README.md            # README file
-├── next.config.js       # Next JS configuration
-├── public               # Public folder
-│   └── assets
-│       └── images       # Image used by default template
-├── src
-│   ├── background       # Atomic background component
-│   ├── button           # Atomic button component
-│   ├── cta              # Atomic cta component
-│   ├── feature          # Atomic feature component
-│   ├── footer           # Atomic footer component
-│   ├── hero             # Atomic hero component
-│   ├── layout           # Atomic layout component
-│   ├── navigation       # Atomic navigation component
-│   ├── pages            # Next JS pages
-│   ├── styles           # PostCSS style folder with Tailwind
-│   ├── templates        # Default template
-│   └── utils            # Utility folder
-├── tailwind.config.js   # Tailwind CSS configuration
-└── tsconfig.json        # TypeScript configuration
-```
 
 ### Customization
 
@@ -171,15 +114,3 @@ Pro tips: if you need a project wide type checking with TypeScript, you can run 
 ### Contributions
 
 Everyone is welcome to contribute to this project. Feel free to open an issue if you have question or found a bug.
-
-### License
-
-Licensed under the MIT License, Copyright © 2020
-
-See [LICENSE](LICENSE) for more information.
-
----
-
-Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
-
-[![Sponsor Next JS Boilerplate](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://www.buymeacoffee.com/ixartz)
