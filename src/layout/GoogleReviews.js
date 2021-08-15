@@ -6,11 +6,28 @@ import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 const Reviews = () => (
     <Section yPadding="py-6">
         <h3 className="text-3xl text-gray-900 font-semibold text-center mb-5">Why Our Customers Love Us </h3>
+        <div class="flex">
         <Splide   options={ {
+                    type: "loop",
+                    perMove: 1,
+                    autoplay: true,
+                    speed: 400,
                     rewind : true,
-                    width  : 800,
+                    width  : '75%',
                     gap    : '1rem',
                     perPage: 3,
+                    arrows: false,
+                    breakpoints: {
+                        1280: {
+                            perPage: 3,
+                        },
+                        768: {
+                            perPage: 2,
+                        },
+                        640: {
+                            perPage: 1,
+                        },
+                    }
                 } }>
             <SplideSlide>
                 <div className="border-1 p-4 border border-gray-300 rounded relative" style={{height:'475px'}}>
@@ -43,7 +60,7 @@ const Reviews = () => (
             </div>
             </SplideSlide>
             <SplideSlide>
-            <div className="border-1 p-4 border border-gray-300 rounded relative">
+            <div className="border-1 p-4 border border-gray-300 rounded relative"  style={{height:'475px'}}>
                 <img className="w-full h-24 w-24 mx-auto" src="/images/reviews/alanaPlayz.png" />
                 <p className="text-black text-lg font-bold text-center mt-1">Alana Playz</p>
                 <p className="text-center text-sm mb-1.5 -mt-1">12 reviews</p>
@@ -58,7 +75,7 @@ const Reviews = () => (
             </div>
             </SplideSlide>
             <SplideSlide>
-            <div className="border-1 p-4 border border-gray-300 rounded relative">
+            <div className="border-1 p-4 border border-gray-300 rounded relative"  style={{height:'475px'}}>
                 <img className="w-full h-24 w-24 mx-auto" src="/images/reviews/danielWikholm.png" />
                 <p className="text-black text-lg font-bold text-center mt-1">Daniel Wikholm</p>
                 <p className="text-center text-sm mb-1.5 -mt-1">3 reviews</p>
@@ -73,7 +90,7 @@ const Reviews = () => (
             </div>
             </SplideSlide>
             <SplideSlide>
-            <div className="border-1 p-4 border border-gray-300 rounded relative">
+            <div className="border-1 p-4 border border-gray-300 rounded relative"  style={{height:'475px'}}>
                 <img className="w-full h-24 w-24 mx-auto" src="/images/reviews/edwardSpeak.png" />
                 <p className="text-black text-lg font-bold text-center mt-1">Edward Speak</p>
                 <p className="text-center text-sm mb-1.5 -mt-1">20 reviews</p>
@@ -88,7 +105,7 @@ const Reviews = () => (
             </div>
             </SplideSlide>
             <SplideSlide>
-            <div className="border-1 p-4 border border-gray-300 rounded relative">
+            <div className="border-1 p-4 border border-gray-300 rounded relative"  style={{height:'475px'}}>
                 <img className="w-full h-24 w-24 mx-auto" src="/images/reviews/mandaMmfp.png" />
                 <p className="text-black text-lg font-bold text-center mt-1">Manda Mmfp</p>
                 <p className="text-center text-sm mb-1.5 -mt-1">Local Guide</p>
@@ -103,7 +120,7 @@ const Reviews = () => (
             </div>
             </SplideSlide>
             <SplideSlide>
-            <div className="border-1 p-4 border border-gray-300 rounded relative">
+            <div className="border-1 p-4 border border-gray-300 rounded relative"  style={{height:'475px'}}>
                 <img className="w-full h-24 w-24 mx-auto" src="/images/reviews/samDouglas.png" />
                 <p className="text-black text-lg font-bold text-center mt-1">Sam Douglas</p>
                 <p className="text-center text-sm mb-1.5 -mt-1">3 reviews</p>
@@ -117,22 +134,19 @@ const Reviews = () => (
                 </div>
             </div>
             </SplideSlide>
-            <SplideSlide>
-            <div className=" p-4 relative">
-                <div style={{'marginTop':'50%', 'marginBottom':'50%'}}>
+        </Splide>
+            <div className="ml-10 p-4 relative">
+                <div style={{'marginTop':'auto', 'marginBottom':'auto'}}>
                     <div className="mx-auto">
-                <p className="text-left text-sm">Rated</p> 
-                    <p className="text-left text-lg sm:text-2xl mt-auto tracking-widest">EXCELLENT </p> 
+                        <p className="text-left text-xs">Rated</p> 
+                        <p className="text-left text-md sm:text-xl mt-auto tracking-widest">EXCELLENT</p> 
                     </div>
-                    <img className="w-full mx-auto mb-1" src="/images/reviews/google-reviews-image.png" />
+                    <img className="w-20 mx-auto mb-1" src="/images/reviews/google-reviews-image.png" />
                     <p className="text-center text-sm underline"><a href="https://www.google.com/search?q=happy+pets+preston&rlz=1C5CHFA_enGB954GB954&oq=happy+pets+preston&aqs=chrome..69i57j46i175i199i512j69i59l2j69i61j69i60.1752j0j7&sourceid=chrome&ie=UTF-8#lrd=0x487b72f0954d9a89:0x28800b747638bdf4,1,,,">See all 192 Reviews</a></p> 
                 </div>
             </div>
-            </SplideSlide>
-        </Splide>
-                
 
-       
+            </div>
     </Section>
 );
 
