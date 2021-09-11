@@ -6,7 +6,7 @@ import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 const Reviews = () => (
     <Section yPadding="py-6">
         <h3 className="text-3xl text-gray-900 font-semibold text-center mb-5">Why Our Customers Love Us </h3>
-        <div class="flex">
+        <div className="flex">
         <Splide   options={ {
                     type: "loop",
                     perMove: 1,
