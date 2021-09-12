@@ -1,8 +1,4 @@
-import Image from 'next/image';
-import { Background } from '../background/Background';
-import { Section } from '../layout/Section';
 import { Header } from '../layout/Header';
-import  shop  from '../../public/images/outside-of-shop.jpeg';
 import { Clock } from '../feature/OpeningTime'
 
 const Hero = () => (
@@ -28,7 +24,7 @@ const Hero = () => (
         </div>
       </div>  
  </section>    
- 
+
   </div>
 );
 

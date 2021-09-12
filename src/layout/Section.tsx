@@ -1,5 +1,4 @@
 import { ReactNode } from 'react';
-import { Background } from '../background/Background';
 
 type ISectionProps = {
   title?: string;
