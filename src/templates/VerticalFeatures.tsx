@@ -5,11 +5,11 @@ const VerticalFeatures = () => (
   
   <Section
     title="Over 10 Years of Experience"
-    description="More than 10 years in the industry, your expert knowledge is second to none, with a good track record of resposible and ethical selling"
+    description="More than 10 years in the industry, our expert knowledge is second to none, with a good track record of resposible and ethical selling"
   >
     <VerticalFeatureRow
       title="Pet Food and Products"
-      description="We stock a wide range of pet products, food, treats and accessories. From hamster bedding to chicken feed and everything in bedween. We specialise in high quality & nutritional dog food."
+      description="We stock a wide range of pet products, food, treats and accessories. From hamster bedding to chicken feed and everything in between. We specialise in high quality & nutritional dog food."
       image="/images/feature.jpeg"
       imageAlt="Pet products"
     />
@@ -28,7 +28,7 @@ const VerticalFeatures = () => (
     />
         <VerticalFeatureRow
       title="Personalised Dog Tag Engraving"
-      description="Wide vertify of dog tags to choose from with high quality professional computer engraving done in-store while you wait. All at a flat rate of just £2.99 per tag. "
+      description="A wide veriety of dog tags to choose from, with high quality professional computer engraving done in-store, while you wait. All at a flat rate of just £2.99 per tag. "
       image="/images/engraving.jpeg"
       imageAlt="Dog Tag Engravng Preston"
       reverse
