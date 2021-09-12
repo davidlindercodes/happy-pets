@@ -45,7 +45,7 @@ else if (day===6 && (hour<17 && hour>9)) {
 </p> 
   }
 else {
-    return <p className="font-bold">Sorry we're currently closed. <br></br>
+    return <p className="font-bold">Our shop is currently closed. <br></br>
     We open again tomorrow at 9am.</p>
 }
 }
