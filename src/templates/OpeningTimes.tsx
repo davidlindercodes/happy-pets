@@ -8,7 +8,7 @@ const OpeningTimes = () => (
             <div className="flex flex-wrap items-center">
                 <div className="w-full sm:w-1/2">
                     <div className="mx-auto " style={{width: 'fit-content',}}> 
-                        <h3 className="text-3xl text-gray-900 font-semibold text-center sm:mt-20" id="openingTimes"> Opening Hours </h3>
+                        <h3 className="text-3xl text-gray-900 font-semibold text-center" id="openingTimes"> Opening Hours </h3>
                         <div className="flex mt-6 text-xl leading-9"> 
                             <p>
                                 Mon - Friday : <br /> 
