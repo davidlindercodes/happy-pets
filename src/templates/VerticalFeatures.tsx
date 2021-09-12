@@ -17,7 +17,7 @@ const VerticalFeatures = () => (
       title="Live Aquatics"
       description="We have the vast selection of healthy freshwater tropical and cold water fish, over 100 species always in stock, too many to list. We regularuary rotate our stock and have new fish in all the time so be sure to visit us regularly."
       image="/images/feature2.jpeg"
-      imageAlt="Second feature alt text"
+      imageAlt="Live Aquatics Preston"
       reverse
     />
     <VerticalFeatureRow
@@ -25,6 +25,13 @@ const VerticalFeatures = () => (
       description="Come and see our newly-opened koi section featuring a selection of large and small koi carp at unbeatable prices."
       image="/images/feature3.jpeg"
       imageAlt="Preston Koi Fish"
+    />
+        <VerticalFeatureRow
+      title="Personalised Dog Tag Engraving"
+      description="Wide vertify of dog tags to choose from with high quality professional computer engraving done in-store while you wait. All at a flat rate of just £2.99 per tag. "
+      image="/images/engraving.jpeg"
+      imageAlt="Dog Tag Engravng Preston"
+      reverse
     />
   </Section>
 );
