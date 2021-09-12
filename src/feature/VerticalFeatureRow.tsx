@@ -15,6 +15,7 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
     'flex',
     'flex-wrap',
     'items-center',
+    'mx-auto',
     {
       'flex-row-reverse': props.reverse,
     }
