@@ -1,4 +1,5 @@
 import { Reviews } from '../layout/GoogleReviews';
+import { OpeningTimes } from '../templates/OpeningTimes';
 import { Map } from '../layout/Map';
 import { Meta } from '../layout/Meta';
 import { Banner } from '../templates/Banner';
@@ -13,6 +14,7 @@ const Index = () => (
     <Hero />
     <Reviews />
     <VerticalFeatures />
+    <OpeningTimes />
     <Map />
     <Banner />
     <Footer />

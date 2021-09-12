@@ -4,9 +4,9 @@ import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
 
 const Reviews = () => (
-    <Section yPadding="py-6">
-        <h3 className="text-3xl text-gray-900 font-semibold text-center mb-5">Why Our Customers Love Us </h3>
-        <div className="flex">
+    <Section yPadding="py-10 sm:py-20">
+        <h3 className="text-3xl text-gray-900 font-semibold text-center mb-5">Why Our Customers <br className="sm:hidden"/> Love Us ... </h3>
+        <div className="flex justify-center mt-6">
         <Splide   options={ {
                     type: "loop",
                     perMove: 1,
@@ -135,7 +135,7 @@ const Reviews = () => (
             </div>
             </SplideSlide>
         </Splide>
-            <div className="ml-10 p-4 relative">
+            <div className="ml-10 p-4 relative hidden sm:block">
                 <div style={{'marginTop':'auto', 'marginBottom':'auto'}}>
                     <div className="mx-auto">
                         <p className="text-left text-xs">Rated</p> 

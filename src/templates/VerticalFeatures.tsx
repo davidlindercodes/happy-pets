@@ -2,6 +2,7 @@ import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
+  
   <Section
     title="Over 10 Years of Experience"
     description="More than 10 years in the industry, your expert knowledge is second to none, with a good track record of resposible and ethical selling"
