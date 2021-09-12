@@ -13,7 +13,7 @@ const Hero = () => (
             Happy Pets <br className={'hidden md:d-block'} />  & Aquatics
           </h1>
           <div className="text-2xl md:text-lg mt-4 mb-10 text-white font-bold">
-            The Best Pet Shop in the Lancashire
+            The Best Pet Shop in Lancashire
           </div>
           <div>
               <Clock />
