@@ -9,43 +9,43 @@ export class Clock extends Component {
   var hour = new Date().getHours()
 
   if (day<6 && hour<9) {
-    return <p> Our shop is currently closed. <br></br>
+    return <p className="font-bold"> Our shop is currently closed. <br></br>
         We're open today from 9am to 6pm.
     </p> 
   }
   else if (day<6 && (hour>9 && hour<18)) {
-        return <p>We're open until 6pm today</p>
+        return <p className="font-bold">We're open until 6pm today</p>
   }
   else if (day<6 && hour>18) {
-    return <p> Our shop is currently closed. <br></br>
+    return <p className="font-bold"> Our shop is currently closed. <br></br>
         We open again tomorrow at 9am.
     </p>
   }
   else if (day===6 && hour<9) {
-    return <p> Our shop is currently closed. <br></br>
+    return <p className="font-bold"> Our shop is currently closed. <br></br>
     We're open today from 9am to 5pm.
 </p>
 }
 else if (day===6 && (hour<17 && hour>9)) {
-    return <p> We're open until 5pm today. <br></br>
+    return <p className="font-bold"> We're open until 5pm today. <br></br>
 </p>
   }
   else if (day===6 && hour>17) {
-    return <p> Our shop is currently closed. <br></br>
-        We open again tomorrow at 10am.
+    return <p className="font-bold"> Our shop is currently closed. <br></br>
+        We open again tomorrow at 11am.
 </p>
   }
   else if (day===7 && hour<10) {
-    return <p> Our shop is currently closed. <br></br>
-            We're open today from 10am to 4pm.
+    return <p className="font-bold"> Our shop is currently closed. <br></br>
+            We're open today from 11am to 4pm.
 </p>
   }
   else if (day===7 && (hour>10 && hour<16)) {
-    return <p> We're open until 4pm today
+    return <p className="font-bold"> We're open until 4pm today
 </p> 
   }
 else {
-    return <p>Sorry we're currently closed. <br></br>
+    return <p className="font-bold">Sorry we're currently closed. <br></br>
     We open again tomorrow at 9am.</p>
 }
 }
