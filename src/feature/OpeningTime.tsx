@@ -13,10 +13,10 @@ export class Clock extends Component {
         We're open today from 9am to 6pm.
     </p> 
   }
-  else if (day<6 && (hour>9 && hour<18)) {
+  else if ((day<6 && day != 0) && (hour>9 && hour<18)) {
         return <p className="font-bold">We're open until 6pm today</p>
   }
-  else if (day<6 && hour>18) {
+  else if ((day<6 && day != 0)  && hour>18) {
     return <p className="font-bold"> Our shop is currently closed. <br></br>
         We open again tomorrow at 9am.
     </p>
@@ -35,12 +35,12 @@ else if (day===6 && (hour<17 && hour>9)) {
         We open again tomorrow at 11am.
 </p>
   }
-  else if (day===7 && hour<10) {
+  else if (day===0 && hour<11) {
     return <p className="font-bold"> Our shop is currently closed. <br></br>
             We're open today from 11am to 4pm.
 </p>
   }
-  else if (day===7 && (hour>10 && hour<16)) {
+  else if (day===0 && (hour>10 && hour<16)) {
     return <p className="font-bold"> We're open until 4pm today
 </p> 
   }
