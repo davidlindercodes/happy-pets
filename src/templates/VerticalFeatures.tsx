@@ -15,7 +15,7 @@ const VerticalFeatures = () => (
     />
     <VerticalFeatureRow
       title="Live Aquatics"
-      description="We have the vast selection of healthy cold water fish, over 100 species always in stock, too many to list. We regularuary rotate our stock and have new fish in all the time so be sure to visit us regularly."
+      description="We have the vast selection of healthy freshwater tropical and cold water fish, over 100 species always in stock, too many to list. We regularuary rotate our stock and have new fish in all the time so be sure to visit us regularly."
       image="/images/feature2.jpeg"
       imageAlt="Second feature alt text"
       reverse
