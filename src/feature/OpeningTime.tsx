@@ -3,18 +3,18 @@ import React, { Component } from 'react';
 export class Clock extends Component {
 
 
-  render() {
+  render ():JSX.Element {
 
-  var day = new Date().getDay();
-  var hour = new Date().getHours()
+  const day = new Date().getDay();
+  const hour = new Date().getHours()
 
   if (day<6 && hour<9) {
     return <p className="font-bold"> Our shop is currently closed. <br></br>
-        We're open today from 9am to 6pm.
+        We&apos;re open today from 9am to 6pm.
     </p> 
   }
   else if ((day<6 && day != 0) && (hour>9 && hour<18)) {
-        return <p className="font-bold">We're open until 6pm today</p>
+        return <p className="font-bold">We&apos;re open until 6pm today</p>
   }
   else if ((day<6 && day != 0)  && hour>18) {
     return <p className="font-bold"> Our shop is currently closed. <br></br>
@@ -23,11 +23,11 @@ export class Clock extends Component {
   }
   else if (day===6 && hour<9) {
     return <p className="font-bold"> Our shop is currently closed. <br></br>
-    We're open today from 9am to 5pm.
+    We&apos;re open today from 9am to 5pm.
 </p>
 }
 else if (day===6 && (hour<17 && hour>9)) {
-    return <p className="font-bold"> We're open until 5pm today. <br></br>
+    return <p className="font-bold"> We&apos;re open until 5pm today. <br></br>
 </p>
   }
   else if (day===6 && hour>17) {
@@ -37,11 +37,11 @@ else if (day===6 && (hour<17 && hour>9)) {
   }
   else if (day===0 && hour<11) {
     return <p className="font-bold"> Our shop is currently closed. <br></br>
-            We're open today from 11am to 4pm.
+            We&apos;re open today from 11am to 4pm.
 </p>
   }
-  else if (day===0 && (hour>10 && hour<16)) {
-    return <p className="font-bold"> We're open until 4pm today
+  else if (day===0 && (hour>10 && hour<16)) { return <p>
+    We&apos;re open until 4pm today
 </p> 
   }
 else {
