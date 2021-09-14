@@ -1,4 +1,4 @@
-# Pet Shop Website built by David Linder
+# Small Business Website Theme built by David Linder
 
 🚀 Custom theme for small businesses written in Next.js, Tailwind CSS and TypeScrip, ESLint, Husky, Lint-Staged, VSCode, Netlify, PostCSS, Tailwind CSS.
 
