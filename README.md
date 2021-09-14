@@ -1,11 +1,11 @@
 # Pet Shop Website built by David Linder
 
-🚀 Custom theme written in Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Husky, Lint-Staged, VSCode, Netlify, PostCSS, Tailwind CSS.
+🚀 Custom theme for small businesses written in Next.js, Tailwind CSS and TypeScrip, ESLint, Husky, Lint-Staged, VSCode, Netlify, PostCSS, Tailwind CSS.
 
 
 ### DEMO
 
-Coming soon.
+www.happypetsandaquatics.com 
 
 ### Features
 
@@ -92,15 +92,10 @@ npm run build-prod
 
 Now, your theme is ready to be deployed. All generated files are located at `out` folder, which you can deploy with any hosting service.
 
-### Deploy to Netlify
-
-Clone this repository on own GitHub account and deploy to Netlify:
-
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template)
 
 ### Deploy to Vercel
 
-Deploy this Next JS Boilerplate on Vercel in one click:
+Clone this repository on own GitHub account and deploy to Vercel in one click:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fixartz%2FNext-JS-Landing-Page-Starter-Template)
 
