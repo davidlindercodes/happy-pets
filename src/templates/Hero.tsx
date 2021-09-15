@@ -1,4 +1,4 @@
-import { Header } from '../layout/Header';
+import { Header } from '../layout/Header1';
 import { Clock } from '../feature/OpeningTime'
 
 const Hero = () => (
